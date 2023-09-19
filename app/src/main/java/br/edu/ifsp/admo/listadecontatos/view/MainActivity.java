@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         listView = findViewById(R.id.Listview_contato);
         ContatoAdapter contatoAdapter = new ContatoAdapter(this, contatoDao.getDataset());
-        listView.setAdapter((contatoAdapter);
+        listView.setAdapter((contatoAdapter));
         listView.setOnItemClickListener(this);
     }
     @Override
